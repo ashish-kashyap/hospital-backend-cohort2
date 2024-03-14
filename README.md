@@ -6,4 +6,4 @@ This is a in-memory hospital where 4 routes have been created:
 
 Few edge cases have also been considered over here:
 1. What should happen if anyone tries to delete kidneys when there are no kidneys - For this we are returning 411 status code as well as msa stating "You have no bad kidneys"
-2. What should happen if they try to make a kidney healthy when all kidney are already healthy - For this we are returning 413 status code as well as msa stating "You have no unhealthy kidneys"
+2. What should happen if they try to make a kidney healthy when all kidney are already healthy - For this we are returning 411 status code as well as msa stating "You have no unhealthy kidneys"
